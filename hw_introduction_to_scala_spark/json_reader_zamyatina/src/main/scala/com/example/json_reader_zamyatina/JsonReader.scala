@@ -3,7 +3,7 @@ import org.apache.spark.sql.SparkSession
 import org.json4s._
 import org.json4s.jackson.JsonMethods._
 
-case class Wine (id: Int,
+case class Wine (id: Option[Int],
                  country: Option[String],
                  points: Option[Int],
                  price: Option[Int],
