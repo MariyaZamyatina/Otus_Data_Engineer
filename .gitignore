@@ -1,3 +1,7 @@
+.idea
+*.iml
+*/target
+
 *.class
 *.log
 build.sbt_back
